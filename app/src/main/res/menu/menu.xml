@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/dh"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="4"
+        android:title="导航地图" />
+    <item
+        android:id="@+id/yj"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="3"
+        android:title="夜景地图"
+        app:showAsAction="withText" />
+    <item
+    android:id="@+id/pt"
+    android:icon="@mipmap/ic_launcher"
+    android:orderInCategory="1"
+    android:title="普通地图"
+    app:showAsAction="withText" />
+    <item
+        android:id="@+id/wx"
+        android:icon="@mipmap/ic_launcher"
+        android:title="卫星地图"
+        android:orderInCategory="2"
+        app:showAsAction="withText" />
+
+
+</menu>
